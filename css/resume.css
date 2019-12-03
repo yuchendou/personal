@@ -1,0 +1,225 @@
+/*!
+ * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-top: 54px;
+  color: #868e96;
+}
+.me{
+  position: absolute;
+  right: 15%;
+  top:10%;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.5rem;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: #5DADE2;
+}
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: #5DADE2;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+#sideNav .navbar-toggler:focus {
+  outline-color: #5DADE2;
+}
+
+
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.bg-primary {
+  background-color: #5DADE2 !important;
+}
+
+.text-primary {
+  color: #5DADE2 !important;
+}
+
+a {
+  color: #5DADE2;
+}
+
+a:hover, a:focus, a:active {
+  color: #5D6D7E;
+}
+section span {
+  color:#5DADE2;
+}
+* {box-sizing: border-box}
+
+.container {
+  width: 40%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #5DADE2;}
+.css {width: 80%; background-color: #5DADE2;}
+.js {width: 55%; background-color: #5DADE2;}
+.c {width: 60%; background-color: #5DADE2;}
+
+.pic1{
+  position: absolute;
+  top:235%;
+  right: 15%;
+  border:1px solid ;
+  padding:5px;
+  background:#ECF0F1;
+}
+.pic2{
+  position: absolute;
+  top:271%;
+  right: 15%;
+  border:1px solid ;
+  padding:5px;
+  background:#ECF0F1;
+}
+.pic3{
+  position: absolute;
+  top:305%;
+  right: 15%;
+  border:1px solid ;
+  padding:5px;
+  background:#ECF0F1;
+}
+.pic4{
+  position: absolute;
+  top:335%;
+  right: 15%;
+  border:1px solid ;
+  padding:5px;
+  background:#ECF0F1;
+}
+.input1{
+  border:0;
+  color:#003C9D;
+  background-color:#fff;
+  border:2px #5DADE2 solid;
+  border-radius:10px;
+  cursor:pointer;
+  position: absolute;
+    top:315%;
+  right: 40%;
+}
+.input2{
+  border:0;
+  color:#003C9D;
+  background-color:#fff;
+  border:2px #5DADE2 solid;
+  border-radius:10px;
+  cursor:pointer;
+  position: absolute;
+    top:345%;
+  right: 40%;
+}
+
+input:hover{
+  color:#003C9D;
+  background-color:#fff;
+  border:2px #F4D03F  solid;
+}
